@@ -1,0 +1,55 @@
+# Rime dictionary
+# encoding: utf-8
+# 
+# 项目名称：中医词库（中+英）TCM vocabulary（CN+EN）
+# 适用输入法：RIME / 鼠鼠输入法 (Squirrel)
+# 
+
+---
+name: rime_tcm
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+# 格式说明：
+# 词条 <TAB> 拼音 <TAB> 权重 <TAB> [英文注释]
+# 注意：中间的分隔全部使用键盘上的 Tab 键（制表符），不能使用空格！
+
+# === 1. 常用中药 (Traditional Chinese Medicine) ===
+麻黄	ma huang	100	[Ephedra]
+桂枝	gui zhi	100	[Cinnamon Twig]
+柴胡	chai hu	100	[Bupleurum Root]
+人参	ren shen	100	[Ginseng]
+黄芪	huang qi	100	[Astragalus Root]
+当归	dang gui	100	[Chinese Angelica]
+白芍	bai shao	100	[White Peony Root]
+熟地黄	shu di huang	100	[Prepared Rehmannia Root]
+大黄	da huang	100	[Rhubarb]
+甘草	gan cao	100	[Licorice Root]
+
+# === 2. 经典方剂 (Classic Formulas) ===
+桂枝汤	gui zhi tang	100	[Guanzhi Decoction]
+麻黄汤	ma huang tang	100	[Mahuang Decoction]
+小青龙汤	xiao qing long tang	100	[Minor Green Dragon Decoction]
+六味地黄丸	liu wei di huang wan	100	[Six-Ingredient Rehmannia Pill]
+逍遥散	xiao yao san	100	[Xiaoyao Powder]
+补中益气汤	bu zhong yi qi tang	100	[Tonifying Middle and Augmenting Qi Decoction]
+四物汤	si wu tang	100	[Four-Substance Decoction]
+四君子汤	si jun zi tang	100	[Four-Gentleman Decoction]
+
+# === 3. 经络穴位 (Acupoints & Meridians) ===
+足三里	zu san li	100	[ST36]
+合谷	he gu	100	[LI4]
+内关	nei guan	100	[PC6]
+涌泉	yong quan	100	[KI1]
+三阴交	san yin jiao	100	[SP6]
+太冲	tai chong	100	[LR3]
+神门	shen men	100	[HT7]
+风池	feng chi	100	[GB20]
+
+# === 4. 基础理论 (Basic Theory) ===
+辨证论治	bian zheng lun zhi	100	[Treatment Based on Syndrome Differentiation]
+阴阳五行	yin yang wu xing	100	[Yin-Yang and Five Elements]
+气血津液	qi xue jin ye	100	[Qi, Blood and Body Fluids]
+脏腑辨证	zang fu bian zheng	100	[Visceral Syndrome Differentiation]
