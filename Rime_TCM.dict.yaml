@@ -1,0 +1,19 @@
+# Rime dictionary
+# encoding: utf-8
+# 
+# 项目名称：中医输入法词库
+# 适用输入法：RIME / 鼠鼠输入法 (Squirrel)
+# 
+
+---
+name: Rime_TCM
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+
+import_tables:
+  - TCM_basics        # 1. 中医基础
+  - TCM_herbs         # 2. 中药（含方剂）
+  - TCM_acupoints     # 3. 穴位经络
+  - TCM_treatment     # 4. 中医治疗
+...

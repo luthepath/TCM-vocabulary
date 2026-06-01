@@ -1,0 +1,28 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: TCM_herbs
+version: "1.0"
+sort: by_weight
+...
+
+# === 常用中药 & 经典方剂 ===
+麻黄	ma huang	100	[Ephedra]
+桂枝	gui zhi	100	[Cinnamon Twig]
+柴胡	chai hu	100	[Bupleurum Root]
+人参	ren shen	100	[Ginseng]
+黄芪	huang qi	100	[Astragalus Root]
+当归	dang gui	100	[Chinese Angelica]
+白芍	bai shao	100	[White Peony Root]
+熟地黄	shu di huang	100	[Prepared Rehmannia Root]
+大黄	da huang	100	[Rhubarb]
+甘草	gan cao	100	[Licorice Root]
+桂枝汤	gui zhi tang	100	[Guanzhi Decoction]
+麻黄汤	ma huang tang	100	[Mahuang Decoction]
+小青龙汤	xiao qing long tang	100	[Minor Green Dragon Decoction]
+六味地黄丸	liu wei di huang wan	100	[Six-Ingredient Rehmannia Pill]
+逍遥散	xiao yao san	100	[Xiaoyao Powder]
+补中益气汤	bu zhong yi qi tang	100	[Tonifying Middle and Augmenting Qi Decoction]
+四物汤	si wu tang	100	[Four-Substance Decoction]
+四君子汤	si jun zi tang	100	[Four-Gentleman Decoction]

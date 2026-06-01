@@ -1,0 +1,14 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: TCM_treatment
+version: "1.0"
+sort: by_weight
+...
+
+# === 中医治疗 (TCM Treatment) ===
+汗吐下和	han tu xia he	100	[Four of the Eight Therapeutic Methods]
+清消补温	qing xiao bu wen	100	[The other Four of the Eight Methods]
+提插捻转	ti cha nian zhuan	100	[Needling Techniques]
+针灸	zhen jiu	100	[Acupuncture and Moxibustion]

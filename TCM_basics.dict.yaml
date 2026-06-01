@@ -1,0 +1,15 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: TCM_basics
+version: "1.0"
+sort: by_weight
+...
+
+# === 基础理论 (Basic Theory) ===
+# 词条 <TAB> 拼音 <TAB> 权重 <TAB> [英文注释]
+辨证论治	bian zheng lun zhi	100	[Treatment Based on Syndrome Differentiation]
+阴阳五行	yin yang wu xing	100	[Yin-Yang and Five Elements]
+气血津液	qi xue jin ye	100	[Qi, Blood and Body Fluids]
+脏腑辨证	zang fu bian zheng	100	[Visceral Syndrome Differentiation]

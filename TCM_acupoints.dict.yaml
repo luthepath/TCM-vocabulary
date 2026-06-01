@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: TCM_acupoints
+version: "1.0"
+sort: by_weight
+...
+
+# === 经络穴位 (Acupoints & Meridians) ===
+足三里	zu san li	100	[ST36]
+合谷	he gu	100	[LI4]
+内关	nei guan	100	[PC6]
+涌泉	yong quan	100	[KI1]
+三阴交	三阴交	100	[SP6]
+太冲	tai chong	100	[LR3]
+神门	shen men	100	[HT7]
+风池	feng chi	100	[GB20]
