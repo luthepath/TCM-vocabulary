@@ -2,10 +2,10 @@
 这是一个专门为 **RIME (中州韵输入法引擎)** 制作的专业中医词库。支持 macOS (Squirrel)、Windows (Weasel 小狼毫) 等全平台 RIME 输入法。
 ## 1.📚词库内容分类
 按中医内容分类，共包含四个分支：
-1. **中医基础 (`tcm_basics.dict.yaml`)**：藏象、气血津液、阴阳五行、诊法等基础理论词汇。
-2. **中药方剂 (`tcm_herbs.dict.yaml`)**：单味中药、经典方剂、中成药及古籍药名。
-3. **针灸穴位 (`tcm_acupoints.dict.yaml`)**：十二经脉、奇经八脉、常用腧穴及国际标准代号。
-4. **中医治疗 (`tcm_treatment.dict.yaml`)**：治则治法、针灸手法、推拿拔罐等临床词汇。
+1. **中医基础 (`TCM_basics.dict.yaml`)**：藏象、气血津液、阴阳五行、诊法等基础理论词汇。
+2. **中药方剂 (`TCM_herbs.dict.yaml`)**：单味中药、经典方剂、中成药及古籍药名。
+3. **针灸穴位 (`TCM_acupoints.dict.yaml`)**：十二经脉、奇经八脉、常用腧穴及国际标准代号。
+4. **中医治疗 (`TCM_treatment.dict.yaml`)**：治则治法、针灸手法、推拿拔罐等临床词汇。
 ## 2.📖如何使用：
 (以 macOS (Squirrel)为例)
 
