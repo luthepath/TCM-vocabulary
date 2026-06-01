@@ -1,5 +1,13 @@
 # 中医输入法词库
-这是一个专门为 **RIME (中州韵输入法引擎)** 制作的专业中医词库。支持 macOS (Squirrel)、Windows (Weasel 小狼毫) 等全平台 RIME 输入法。
+由于中医术语生僻词和古汉语较多，普通输入法无法满足，所以整理了一个词库供所有中医从业/爱好者使用。
+
+本词库基于目前支持中文古汉语相关最好的输入法引擎 **RIME (中州韵输入法引擎)** ，mac/iphone/windows/andriod等多平台多系统都可以找到能够使用本词库（支持Rime引擎）的输入法;
+
+-macOS系统： Squirrel输入法；
+-Windows系统： Weasel小狼毫输入法；
+-Iphone/Ipad：Hamster输入法；
+-Andriod：Trime同文输入法 ；
+
 ## 1.📚词库内容分类
 按中医内容分类，共包含四个分支：
 1. **中医基础 (`TCM_basics.dict.yaml`)**：藏象、气血津液、阴阳五行、诊法等基础理论词汇。
