@@ -1,7 +1,7 @@
 # 中医输入法词库
 由于中医术语生僻词和古汉语较多，普通输入法无法满足，所以整理了一个词库供所有中医从业/爱好者使用。
 
-本词库基于目前对中文及古汉语支持最好的开源输入法引擎 **RIME (中州韵)** 构建。支持跨平台多系统同步，你可以在以下系统的常用 RIME 客户端中导入本项目：
+本词库基于目前对中文及古汉语支持最好的开源输入法引擎 **RIME** 构建。支持跨平台多系统同步，你可以在以下系统的常用 RIME 客户端中导入本项目：
 
 1. macOS系统：推荐使用 「Squirrel输入法」；
 2. Windows系统： 推荐使用「Weasel小狼毫输入法」；
@@ -10,7 +10,7 @@
 
    
 ## 1.📚词库内容分类
-按中医内容分类，共包含四个分支：
+按中医内容分类，共包含四个文件：
 1. **中医基础 (`TCM_basics.dict.yaml`)**：藏象、气血津液、阴阳五行、诊法等基础理论词汇。
 2. **中药方剂 (`TCM_herbs.dict.yaml`)**：单味中药、经典方剂、中成药及古籍药名。
 3. **针灸穴位 (`TCM_acupoints.dict.yaml`)**：十二经脉、奇经八脉、常用腧穴及国际标准代号。
@@ -19,49 +19,50 @@
 ## 2.📖如何使用：(以 macOS (Squirrel)为例)
 
 ### 第一步：下载并放置文件
-1. 下载本仓库中的所有以 `.dict.yaml` 结尾的词库文件。
+1. 下载本仓库中 `TCM_acupoints.dict.yaml` `TCM_basics.dict.yaml`  `TCM_herbs.dict.yaml`  `TCM_treatment.dict.yaml`这四个文件。
 2. 点击 Mac 右上角输入法图标，选择 **「Settings... / 用户设定」**，系统会自动打开一个配置文件夹。
-3. 将下载的文件全部复制到该文件夹中。
+3. 将下载的4个词库文件全部复制到该文件夹中。
 
 ### 第二步：挂载词库（请根据你使用的 Rime 配置选择方案）
 
 #### 💡 方案 A：如果你使用的是目前主流的「雾凇拼音 (Rime-ice)」配置
 雾凇拼音自带完美的自定义扩展机制，最推荐此方法：
-1. 在刚刚打开的配置文件夹中，**新建**一个纯文本文件，命名为 `rime_ice.custom.dict.yaml`。
-2. 将以下内容复制进去并保存：
+1. 在打开的配置文件夹中，找到 rime_ice.dict.yaml（雾凇主词库入口）文件。
+2. 在文件中的 import_tables: 列表末尾（建议在 cn_dicts/others 之后）追加这四个文件名称：
+   ```yaml
+      - TCM_basics
+      - TCM_herbs
+      - TCM_acupoints
+      - TCM_treatment
+   ...
+3. 保存
+#### 💡 方案 B：如果你使用的是 Rime 默认的「朙月拼音 (luna_pinyin)」
+
+1. 在打开的配置文件夹中，新建 luna_pinyin.extended.dict.yaml文件：
    ```yaml
    # Rime dictionary
+   # encoding: utf-8
    ---
-   name: rime_ice.custom
-   version: "2026.06"
+   name: luna_pinyin.extended
+   version: "1.0"
    sort: by_weight
-   use_preset_vocabulary: true
    import_tables:
+     - luna_pinyin
      - TCM_basics
      - TCM_herbs
      - TCM_acupoints
      - TCM_treatment
    ...
-#### 💡 方案 B：如果你使用的是 Rime 默认的「朙月拼音 (luna_pinyin)」
 
-1. 在配置文件夹中，新建一个纯文本文件，命名为 `luna_pinyin.extended.dict.yaml`，复制以下内容并保存：
-   ```yaml
-   # Rime dictionary
-   ---
-   name: luna_pinyin.extended
-   version: "2026.06"
-   sort: by_weight
-   use_preset_vocabulary: true
-   import_tables:
-     - luna_pinyin
-     - rime_tcm
-   ...
-
-2. 找到或新建 `luna_pinyin_simp.custom.yaml` 文件，在 patch: 下方添加以下代码：
+2. 找到或新建 `luna_pinyin.custom.yaml`（简体可用 luna_pinyin_simp.custom.yaml）文件，在 patch: 下方添加以下代码：
    ```yaml
    patch:
      "translator/dictionary": luna_pinyin.extended
    ...
-
+3. 保存
+   
 ### 第三步：重新部署生效
 完成上述操作后，点击 Mac 右上角输入法图标，点击 「Deploy / 重新部署」，即可开始使用。
+
+### 第四步：测试是否成功：
+在词库中添加了一个不存在的长词条，`气室门天牖	qi shi men tian you` 请直接输入拼音看是否可以显示出来，可显示即为成功安装。
