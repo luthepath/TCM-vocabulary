@@ -1,0 +1,16 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: TCM_dong_points
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+
+# === 董氏奇穴（非国标，来源见 README）===
+
+足三里	zu san li	100 [ST36]
+
+气室门天牖	qi shi men tian you	500	
