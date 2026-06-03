@@ -13,9 +13,9 @@
 计划按中医内容分类：（内容动态更新，如资料增多可能会分多个文件单独存放，比如穴位文件就分了3个文件来管理：14正经的362个穴位+51经外奇穴+董氏奇穴。可以按需要单独选择，比如只需362正经穴位的，就只把TCM_acupoints_standard362.dict.yaml这个文件放进你的输入法包即可）
 1. **中医基础 (`TCM_basics.dict.yaml`)**：藏象、气血津液、阴阳五行、诊法等基础理论词汇。
 2. **中药方剂 (`TCM_herbs.dict.yaml`)**：单味中药、经典方剂、中成药及古籍药名。
-3. **针灸穴位_362 (`TCM_acupoints_standard362.dict.yaml`)**：十四正经的穴位（362个腧穴及国际标准代号）。
-4. **针灸穴位_51 (`TCM_acupoints_extra51.dict.yaml`)**：经外奇穴（51个未归经的穴位及国际标准代号）。
-5. **针灸穴位_dong (`TCM_acupoints_dong.dict.yaml`)**：董氏奇穴（董氏奇穴合集）。
+3. **针灸穴位_14正经穴 (`TCM_meridian_points_362.dict.yaml`)**：362个14正经穴（参考来源：中华人民共和国国家标准 GB/T 12346-2021《经穴名称与定位》）
+4. **针灸穴位_经外奇穴 (`TCM_extra_common_points_51.dict.yaml`)**：51个经外奇穴（参考来源：中华人民共和国国家标准 GB/T 40997-2021《经外奇穴名称与定位》）
+5. **针灸穴位_董氏奇穴 (`TCM_dong_points.dict.yaml`)**：董氏奇穴合集。
 6. **中医治疗 (`TCM_treatment.dict.yaml`)**：治则治法、针灸手法、推拿拔罐等临床词汇。
 
 ## 2.📖如何使用：(以 macOS (Squirrel)为例)
